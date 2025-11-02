@@ -1,0 +1,75 @@
+/* Promo.css */
+.promo-section {
+  overflow: hidden;
+}
+
+.promo-decoration {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(13, 110, 253, 0.1) 0%, transparent 70%);
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+.promo-subtitle {
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  position: relative;
+  display: inline-block;
+}
+
+.promo-subtitle::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 2px;
+  background-color: #0d6efd;
+}
+
+.promo-title {
+  position: relative;
+  z-index: 2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.promo-role {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+/* Animation for subtle effect */
+.promo-content {
+  animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .promo-title {
+    font-size: 2.5rem;
+  }
+  
+  .promo-subtitle {
+    font-size: 1rem;
+  }
+  
+  .promo-role {
+    font-size: 1.2rem;
+  }
+}
