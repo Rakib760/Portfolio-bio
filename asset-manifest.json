@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Portfolio-bio/static/css/main.eeccb71f.css",
+    "main.js": "/Portfolio-bio/static/js/main.3e857127.js",
+    "static/js/453.a3c1d153.chunk.js": "/Portfolio-bio/static/js/453.a3c1d153.chunk.js",
+    "static/media/fa-solid-900.woff2": "/Portfolio-bio/static/media/fa-solid-900.0ae4e6254fc19607c79e.woff2",
+    "static/media/fa-brands-400.woff2": "/Portfolio-bio/static/media/fa-brands-400.e7461d69dbbff1310a5c.woff2",
+    "static/media/fa-regular-400.woff2": "/Portfolio-bio/static/media/fa-regular-400.1f38a564cd9eae27ebc3.woff2",
+    "static/media/fa-v4compatibility.woff2": "/Portfolio-bio/static/media/fa-v4compatibility.661bd6b7245d5205d3e1.woff2",
+    "index.html": "/Portfolio-bio/index.html",
+    "main.eeccb71f.css.map": "/Portfolio-bio/static/css/main.eeccb71f.css.map",
+    "main.3e857127.js.map": "/Portfolio-bio/static/js/main.3e857127.js.map",
+    "453.a3c1d153.chunk.js.map": "/Portfolio-bio/static/js/453.a3c1d153.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eeccb71f.css",
+    "static/js/main.3e857127.js"
+  ]
+}
