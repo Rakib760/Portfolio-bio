@@ -46,9 +46,7 @@ const Footer = () => {
                   Transforming ideas into digital reality.
                 </p>
 
-<<<<<<< HEAD
 
-=======
          
 
           {/* Social Links */}
@@ -70,7 +68,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
->>>>>>> d490218ea9a773097f1a11f50b7891a879c8fcb4
+
 
               </div>
             </div>
